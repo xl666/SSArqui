@@ -1,0 +1,232 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - help
+  - definicion
+  - horas
+  - ov
+  - requisitos
+  - informes
+  - calificacion
+  - beca
+  - proceso
+  - expediente
+  - trabajo
+  - oportunidades
+  - reportes
+  - temario
+  - cambio
+  - adelantar
+  - pocas_horas
+  - sector_productivo
+  - fuera_xalapa
+  - validacion_documentos
+  - computadora
+
+
+responses:
+  utter_greet:
+  - text: "Hola, ¿Cómo estás?"
+  - text: "Hola"
+  - text: "Mucho gusto en saludarte"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿Necesitas ayuda?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Adiós"
+  - text: "ten un buen día"
+  - text: "saludos"
+
+  utter_iamabot:
+  - text: "Soy un bot, patrocinado por FAUV, Xalapa, UV."
+
+  utter_definicion:
+  - text: |
+      Art. 74. El servicio social es la actividad formativa y de 
+      aplicación de saberes que, de manera individual o grupal, temporal y 
+      obligatoria, realizan los alumnos, pasantes o egresados de los niveles 
+      técnicos y de estudios profesionales en beneficio de la sociedad y de la 
+      propia institución.
+  utter_horas:
+  - text: |
+      Art. 75. La duración del servicio social no puede ser menor a 
+      seis meses ni mayor a un año, ni cubrir un tiempo menor de 480 horas, 
+      pudiendo realizarse en uno o dos periodos escolares continuos.
+  
+  utter_ov:
+  - text: |
+      Art. 75. Puede prestarse en la propia institución o en los 
+      sectores público, social y privado del estado de Veracruz.
+  
+  utter_informes:
+  - text: |
+      - Mtro. Eduardo Mijangos Martínez
+      - emijangos@uv.mx
+      - Coordinador de Servicio Social y Prácticas profesionales de la FAUV
+ 
+
+  utter_requisitos:
+  - text: |
+      - Art. 77.
+        - Cumplir como mínimo con el 70% de los créditos del programa 
+        educativo.
+        - Realizar la inscripción en la experiencia educativa de acuerdo con 
+        la oferta académica de su entidad, en las fechas que se ofrezcan.
+  utter_calificacion:
+  - text: |
+      La calificación de Servicio Social se integrará por la entrega completa de 
+      expediente de alta, reportes y carta de liberación, junto con la calificación 
+      asignada por la entidad receptora.
+
+  utter_beca:
+  - text: |
+      Art. 77. El alumno inscrito en la experiencia educativa y 
+      beneficiado con una beca debe cumplir con los requisitos de la institución 
+      que le otorgue dicho apoyo para la realización de su servicio social.
+  utter_proceso:
+  - text:
+      "1. El estudiante revisa la oferta de entidades receptoras, sea que estas soliciten 
+      prestadores de servicio o que exista interés del estudiante en realizar la 
+      prestación del servicio en dicha entidad receptora.
+      2. Se revisa el status de vinculación, en caso de no existir se vincula a la 
+      nueva entidad receptora
+      3. El estudiante prepara su expediente de alta. Para mayores detalles revisar
+      <a href= https://www.uv.mx/arquitectura/general/servicio-social-fauv/ > enlace </a>      
+      4. Entregar expediente de alta en ventanilla para solicitar sello.
+      5. Subir expedientes a plataforma eminus en tiempo y forma.
+      6. Una vez autorizada el alta por el coordinador, se procederá a la prestación 
+      del servicio, entregando reportes mensuales en los primero 10 días del mes. 
+      La entrega de reportes tendrá la misma dinámica que la entrega de expediente de alta.
+      7. Una vez completadas las 480 dentro de la normativa establecida, entregar carta 
+      e liberación siguiendo el formato muestra difundido en el link antes mostrado.
+      8. Solicita sello en la secretaría de facultad y sube a eminus sus documentos de 
+      cierre.
+      9. El coordinador valida documentación y asienta calificación correspondiente, 
+      tomando en cuenta el cumplimiento en la entrega de todos los documentos y la 
+      calificación descrita en la carta de liberación."
+
+  utter_expediente:
+  - text: |
+      - Los documentos contenidos en el expediente de servicio social, serán:
+        - Constancia de avance crediticio.
+        - SSFAUV-REGISTRO. 
+        - SSFAUV1. Carta de aceptación.
+        - SSFAUV2. Programa de actividades.
+        - SSFAUV3. Directorio individual.
+        - Horario de experiencias inscritas en el periodo actual. 
+        - De seis a once reportes mensuales con evidencia fotográfica.
+        - Carta de liberación por parte de la dependencia.
+   
+  utter_trabajo:
+  - text: |
+      Art. 75. La prestación del servicio social no generará relaciones 
+      de carácter laboral entre quien lo presta y quien lo recibe.
+  
+  utter_oportunidades:
+  - text: |
+      - Art. 77.
+        - En el caso de no acreditarla en el proceso de evaluación señalado 
+        en el programa de la experiencia educativa en primera inscripción, 
+        deberá cursarla nuevamente.
+        - En aquellos casos en que el alumno interrumpa el servicio social, 
+        de manera temporal y por causa grave, deberá presentar documentación 
+        e la dependencia en la que se encontraba realizando sus actividades y 
+        solicitar al Consejo Técnico u órgano equivalente la procedencia y el 
+        aval del tiempo realizado. Si la respuesta es favorable, el alumno 
+        podrá realizar en el tiempo establecido su segunda inscripción para 
+        completarlo.
+  utter_reportes:
+  - text: |
+      - Las fechas de entrega de reportes dependerán de la fecha de inscripción y 
+      registro de este, se harán revisiones regularmente con la finalidad de liberar a 
+      aquellos estudiantes que entreguen en los primeros días del mes indicado. No se 
+      otorgarán prórrogas.
+      - Los trámites serán realizados de manera presencial, con firmas autógrafas en 
+      color azul y reportado en tiempo y forma a plataforma eminus.
+      - La entrega de los reportes está condicionada a la entrega del expediente de 
+      alta, por lo que es importante seas cuidadoso y puntual en tus entregas.
+      - Presentar en cada reporte evidencia fotográfica de las principales actividades 
+      realizadas (incluir pie de foto).
+      - No se contempla el cambio de entidad receptora. Cualquier caso especial 
+      consultar con el coordinador y hacer la correspondiente solicitud a H. Consejo 
+      Técnico FAUV.
+      - En caso de no entregar un reporte por vencimiento en la fecha, este se entregará
+      en la entrada siguiente, lo cual representará el atraso de un mes en la terminación 
+      de servicio social. 
+
+  utter_temario:
+  - text: |
+      Puedo hablarte de los siguientes temas:
+      - Definicion
+      - Horas
+      - Organización vinculada
+      - Requisitos
+      - Informes
+      - Calificacion
+      - Beca
+      - Proceso
+      - Expediente
+      - Trabajo
+      - Oportunidades
+      - Reportes
+      - Cambio de entidad
+      - Adelantar servicio
+      - Falta de horas para terminar el servicio
+      - Prestación en empresas del sector productivo
+      - Servicio fuera de Xalapa
+      - Validacion de documentos
+      - Uso de computadora en el servicio
+
+  utter_cambio:
+  - text: |
+      "No se contempla un cambio en este sentido. En el caso de fuerza mayor se 
+      hará la solicitud al H. Consejo Técnico de la FAUV.
+  
+  utter_adelantar:
+  - text: |
+      No se puede adelantar el Servicio Social. La FAUV es la encargada de autorizar 
+      el alta y velar por el sano cumplimento del servicio social, cualquier decisión fuera 
+      de este contexto será responsabilidad del estudiante y no le serán reconocidas las horas.
+
+  utter_pocas_horas:
+  - text: |
+      Es responsabilidad del prestador de servicio lograr las 480 horas en los 
+      plazos establecidos, por lo que de no hacerlo no promoverá esta experiencia educativa.
+
+  utter_sector_productivo:
+  - text: |
+      La intención principal del servicio social es reflejar principalmente un 
+      apoyo al sector social, es decir, prestar el servicio en instituciones públicas o la 
+      misma universidad, sin embargo, la normativa no limita a los estudiantes a acudir a 
+      empresas del sector productivo, siempre y cuando los proyectos desarrollados contribuyan
+      al desarrollo social o comunitario.
+
+  utter_fuera_xalapa:
+  - text: |
+      Todos los servicios, sin excepción, se realizan en ventanilla, por lo que 
+      es conveniente planificar las fechas para hacer las entregas correspondientes.
+
+  utter_validacion_documentos:
+  - text: |
+      El coordinador validará la información disponible en plataforma eminus a la fecha 
+      del cierre, en caso de faltar algún documento no se podrá asentar calificación final. 
+      Será responsabilidad del prestador de servicio solicitar revisión de su expediente ante 
+      H. Consejo Técnico de la FAUV.
+
+  utter_computadora:
+  - text: |
+      Es responsabilidad de las entidades receptoras proporcionar los insumos y 
+      viáticos necesarios para la prestación del servicio social.
+
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
